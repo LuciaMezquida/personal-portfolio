@@ -1,6 +1,6 @@
 ![Lucia](https://i.ibb.co/BgXwFPC/luci-laptop.jpg)
 
-# Portafolio personal de Lucía Mezquida
+# Portafolio de Lucía Mezquida
 
 Hay 3 tipos de ficheros y carpetas:
 
