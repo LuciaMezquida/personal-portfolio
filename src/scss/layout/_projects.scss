@@ -1,16 +1,13 @@
 /*Projects section*/
-h2 {
-  color: bisque;
-  font-size: 6em;
-}
-#projects h2 {
-  margin-bottom: 1.7em;
-}
-
-#projects {
+.main {
   text-align: center;
   padding: 10em 2em;
-  background: #73c2be;
+  background: $color-quaternary;
+  &__title {
+    color: $color-font;
+    font-size: 6em;
+    margin-bottom: 1.7em;
+  }
 }
 
 #projects-grid {
@@ -28,7 +25,7 @@ h2 {
   width: 100%;
   object-fit: cover;
   padding-bottom: 4em;
-  background: #3c5353;
+  background: $color-tertiary;
   position: relative;
   z-index: 1;
   border-radius: 5%;
