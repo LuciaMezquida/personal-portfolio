@@ -71,7 +71,6 @@ son un atajo que nos genera la versión de producción y hace push de la carpeta
 
 Estas tareas de Gulp producen el siguiente flujo de archivos:
 
-![Gulp flow](./gulp-flow.png)
 
 ## `gulpfile.js` y `config.json`
 
@@ -89,14 +88,28 @@ src
  ├─ images
  |  └─ logo.jpg
  ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
+ |  └─ main.js
  ├─ scss
- |  ├─ components
  |  ├─ core
+ |  |  ├─_reset.scss
+ |  |  └─_variables.scss
  |  ├─ layout
+ |  |  ├─_contact.scss
+ |  |  ├─_footer.scss
+ |  |  ├─_header.scss
+ |  |  └─_projects.scss
  |  └─ pages
+ |  |  └─_page.scss
+ |  └─ main.scss
  └─ html
     └─ partials
+    |  ├─ article.html
+    |  ├─ contact.html
+    |  ├─ footer.html
+    |  ├─ header.html
+    |  ├─ link.html
+    |  ├─ main.html
+    |  └─ projects.html
+    └─ index.html  
 ```
 
