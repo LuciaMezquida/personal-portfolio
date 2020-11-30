@@ -3,63 +3,198 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Lucia Mezquida Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/wired/64/000000/moleskine.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+    <div>
+      <header class="header">
+        <nav id="welcome-section">
+          <ul class="header__navbar">
+            <li class="list">
+              <a class="header__navbar--link" href="#welcome-section" title="About me"
+                >Sobre mi</a
+              >
+            </li>
+            <li class="list">
+              <a class="header__navbar--link" href="#projects" title="My works"
+                >Mis proyectos</a
+              >
+            </li>
+            <li class="list">
+              <a class="header__navbar--link" href="#contact" title="Contact"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <section class="header__welcome">
+          <h1 class="header__welcome--title">Hola, soy Lucia</h1>
+          <p class="header__welcome--job">Junior front-end developer</p>
+        </section>
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <main id="projects" class="main">
+        <h2 class="main__title">Mis proyectos</h2>
+        <section class="main__projects">
+          <article class="main__projects--card">
+            <a class="main__projects--link link" href="https://luciamezquida.github.io/random-quote-machine/" target="_blank">
+              <img
+                class="main__projects--image"
+                src="../assets/images/random-quote-machine.png"
+                alt="Citas aleatorias"
+                title="Citas aleatorias"
+              />
+              <p class="main__projects--name">Citas aleatorias</p>
+            </a>
+          </article>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+          <article class="main__projects--card">
+            <a class="main__projects--link link" href="https://luciamezquida.github.io/training-projects/calculo_imc/src/" target="_blank">
+              <img
+                class="main__projects--image"
+                src="../assets/images/imc-img.png"
+                alt="Calculadora IMC"
+                title="Calculadora IMC"
+              />
+              <p class="main__projects--name">Calculadora IMC</p>
+            </a>
+          </article>
 
-          </li>
-        </ul>
+          <article class="main__projects--card">
+            <a class="main__projects--link link" href="https://luciamezquida.github.io/javascript-games/luci-tetris/" target="_blank">
+              <img
+                class="main__projects--image"
+                src="../assets/images/tetris-img.png"
+                alt="Tetris Game"
+                title="Tetris Game"
+              />
+              <p class="main__projects--name">Tetris Game</p>
+            </a>
+          </article>
+
+          <article class="main__projects--card">
+            <a class="main__projects--link link" href="https://beta.adalab.es/project-promo-k-module-2-team-7/" target="_blank">
+              <img
+                class="main__projects--image"
+                src="../assets/images/divas-profile-cards.png"
+                alt="Awesome Profile Cards"
+                title="Awesome Profile Cards"
+              />
+              <p class="main__projects--name">Awesome Profile Cards</p>
+            </a>
+          </article>
+
+          <article class="main__projects--card">
+            <a class="main__projects--link link" href="https://luciamezquida.github.io/rick-and-morty-finder/#/" target="_blank">
+              <img
+                class="main__projects--image"
+                src="../assets/images/rick-morty.png"
+                alt="Buscador Rick & Morty"
+                title="Buscador Rick & Morty"
+              />
+              <p class="main__projects--name">Buscador Rick & Morty</p>
+            </a>
+          </article>
+
+          <article class="main__projects--card">
+            <a class="main__projects--link link" href="https://luciamezquida.github.io/space-invaders/" target="_blank">
+              <img
+                class="main__projects--image"
+                src="../assets/images/space-invaders.png"
+                alt="Space Invaders"
+                title="Space Invaders"
+              />
+              <p class="main__projects--name">Space Invaders</p>
+            </a>
+          </article>
+
+        </section>
+        <a
+          href="https://codepen.io/LuciaMezquida"
+          class="main__button link"
+          title="Más proyectos"
+          target="_blank"
+          >Más ></a
+        >
+
+        <section id="contact" class="contact">
+          <h2 class="contact__title">¿Más sobre mi?</h2>
+          <nav>
+            <ul class="contact__list">
+              <li class="list">
+                <a
+                  target="_blank"
+                  title="GitHub"
+                  href="https://github.com/LuciaMezquida"
+                  class="contact__list--links"
+                >
+                  <i class="fab-github"></i>
+                  <p class="contact__list--links-name">GitHub</p></a
+                >
+              </li>
+              <li class="list">
+                <a
+                  target="_blank"
+                  title="Twitter"
+                  href="https://twitter.com/LuciCodes"
+                  class="contact__list--links"
+                >
+                  <i class="fab-twitter"></i>
+                  <p class="contact__list--links-name">Twitter</p></a
+                >
+              </li>
+              <li class="list">
+                <a
+                  target="_blank"
+                  title="Linkedin"
+                  href="https://www.linkedin.com/in/luciamezquidajuan/"
+                  class="contact__list--links"
+                >
+                  <i class="fab-linkedin"></i>
+                  <p class="contact__list--links-name">Linkedin</p></a
+                >
+              </li>
+              <li class="list">
+                <a
+                  href="mailto:lucia.mezquida@gmail.com"
+                  class="contact__list--links"
+                  target="_blank"
+                  title="Email"
+                >
+                  <i class="fab-email"></i>
+                  <p class="contact__list--links-name">Email</p></a
+                >
+              </li>
+              <li class="list">
+                <a
+                  href="https://drive.google.com/file/d/14w5koL6qWnA_SKqFeXy6Q_allForT7NM/view?usp=sharing"
+                  class="contact__list--links"
+                  target="_blank"
+                  title="CV"
+                >
+                  <i class="fab-cv"></i>
+                  <p class="contact__list--links-name">CV</p></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+
       </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+      <footer class="copyright">
+        <small> &copy; Made with 🖤 by Lucia Mezquida</small>
       </footer>
 
     </div>

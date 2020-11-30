@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";const change=()=>{document.getElementById("email").innerHTML="lucia.mezquida@gmail.com"},noChange=()=>{document.getElementById("email").innerHTML="Email"};
