@@ -1,11 +1,24 @@
-<article class="main__projects--card">
-  <a class="main__projects--link link" href="@@href" target="_blank">
+<article class="main__card">
+  <div class="main__container">
     <img
-      class="main__projects--image"
+      class="main__container--image"
       src="@@image"
       alt="@@title"
       title="@@title"
     />
-    <p class="main__projects--name">@@title</p>
-  </a>
+  </div>
+  <div class="main__info">
+    <div class="main__info-behind">
+      <p class="main__info-description">Blablabla</p>
+      <div class="main__info--icons">
+        <a href="{githubLink}" target="_blank">
+          <img src="{github}" class="project__icon" alt="github link" />
+        </a>
+        <a href="{webLink}" target="_blank">
+          <img src="{web}" class="project__icon" alt="web link" />
+        </a>
+      </div>
+    </div>
+    <p class="main__info--name">@@title</p>
+  </div>
 </article>
