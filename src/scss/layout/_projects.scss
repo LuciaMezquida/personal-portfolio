@@ -52,7 +52,7 @@
     }
   }
   &__info {
-    transform: translate(0, -30px);
+    transform: translate(0, 0px);
     &--name {
       align-self: flex-end;
       font-size: 1.7em;
@@ -67,19 +67,19 @@
     }
   }
   &__info-behind {
-    transform: translate(0, -150px);
+    transform: translate(0, -190px);
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
     @media all and (min-width: 768px) {
-      transform: translate(0, -180px);
+      transform: translate(0, -210px);
       justify-content: center;
     }
     @media all and (min-width: 1024px) {
       transform: translate(0, -220px);
     }
+  }
+  &__info-description {
+    width: 300px;
+    margin-bottom: 10px;
   }
   &__button {
     display: inline-block;
