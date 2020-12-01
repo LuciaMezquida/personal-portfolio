@@ -53,18 +53,21 @@
   }
   &__info {
     &--name {
-      font-size: 1.7em;
+      font-size: 1.8em;
       color: $color-quaternary;
       font-weight: bolder;
       position: relative;
       z-index: 3;
       margin-top: -236px;
+      @media all and (min-width: 768px) {
+        margin-top: -275px;
+      }
       @media all and (min-width: 1024px) {
-        margin-top: -60px;
+        margin-top: -335px;
       }
     }
     .icon {
-      padding: 30px;
+      padding: 0 30px;
     }
     .image {
       @media all and (min-width: 768px) {
@@ -75,26 +78,29 @@
   &__info-behind {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     transform: translate(0, -250px);
     height: 200px;
     @media all and (min-width: 768px) {
       transform: translate(0, -330px);
+      height: 240px;
     }
     @media all and (min-width: 1024px) {
       transform: translate(0, -420px);
+      height: 270px;
     }
   }
   &__info-description {
+    font-size: 1.4rem;
     width: 300px;
-    padding: 15px;
+    padding: 15px 20px;
     text-align: left;
     @media all and (min-width: 768px) {
       font-size: 1.7rem;
       width: 400px;
     }
     @media all and (min-width: 1024px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
       width: 500px;
     }
   }
