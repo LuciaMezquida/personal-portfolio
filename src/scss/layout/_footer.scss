@@ -1,4 +1,8 @@
 .copyright {
+  font-size: 1.4rem;
   background: $color-tertiary;
   text-align: center;
+  @media all and(min-width: 1024px) {
+    font-size: 1.1rem;
+  }
 }
