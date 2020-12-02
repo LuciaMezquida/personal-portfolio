@@ -39,20 +39,50 @@
 }
 
 .fab-github::before {
-  content: url(//img.icons8.com/wired/64/000000/github.png);
+  content: url(//img.icons8.com/wired/45/000000/github.png);
+  @media all and(min-width: 768px) {
+    content: url(//img.icons8.com/wired/50/000000/github.png);
+  }
+  @media all and(min-width: 1024px) {
+    content: url(//img.icons8.com/wired/64/000000/github.png);
+  }
 }
 
 .fab-twitter::before {
-  content: url(//img.icons8.com/wired/64/000000/twitter.png);
+  content: url(//img.icons8.com/wired/45/000000/twitter.png);
+  @media all and(min-width: 768px) {
+    content: url(//img.icons8.com/wired/50/000000/twitter.png);
+  }
+  @media all and(min-width: 1024px) {
+    content: url(//img.icons8.com/wired/64/000000/twitter.png);
+  }
 }
 
 .fab-linkedin::before {
-  content: url(//img.icons8.com/wired/64/000000/linkedin.png);
+  content: url(//img.icons8.com/wired/45/000000/linkedin.png);
+  @media all and(min-width: 768px) {
+    content: url(//img.icons8.com/wired/50/000000/linkedin.png);
+  }
+  @media all and(min-width: 1024px) {
+    content: url(//img.icons8.com/wired/64/000000/linkedin.png);
+  }
 }
 
 .fab-email::before {
-  content: url(//img.icons8.com/wired/64/000000/gmail.png);
+  content: url(//img.icons8.com/wired/45/000000/gmail.png);
+  @media all and(min-width: 768px) {
+    content: url(//img.icons8.com/wired/50/000000/gmail.png);
+  }
+  @media all and(min-width: 1024px) {
+    content: url(//img.icons8.com/wired/64/000000/gmail.png);
+  }
 }
 .fab-cv::before {
-  content: url(//img.icons8.com/dotty/64/000000/parse-from-clipboard.png);
+  content: url(//img.icons8.com/dotty/45/000000/parse-from-clipboard.png);
+  @media all and(min-width: 768px) {
+    content: url(//img.icons8.com/dotty/50/000000/parse-from-clipboard.png);
+  }
+  @media all and(min-width: 1024px) {
+    content: url(//img.icons8.com/dotty/64/000000/parse-from-clipboard.png);
+  }
 }

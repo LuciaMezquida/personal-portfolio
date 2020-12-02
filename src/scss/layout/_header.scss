@@ -14,11 +14,14 @@
     &--link {
       padding: 1.2rem;
       display: flex;
-      font-size: 1.5em;
+      font-size: 1.8em;
       margin-right: 1.8rem;
       text-decoration: none;
       color: $color-font;
       font-weight: bolder;
+      @media all and (min-width: 1024px) {
+        font-size: 1.4em;
+      }
       &:hover {
         text-decoration: underline;
       }

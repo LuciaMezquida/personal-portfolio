@@ -53,17 +53,20 @@
   }
   &__info {
     &--name {
-      font-size: 1.8em;
+      font-size: 2.1em;
       color: $color-quaternary;
       font-weight: bolder;
       position: relative;
       z-index: 3;
-      margin-top: -236px;
+      margin-top: -235px;
       @media all and (min-width: 768px) {
-        margin-top: -275px;
+        margin-top: -277px;
+        font-size: 2.4em;
       }
       @media all and (min-width: 1024px) {
         margin-top: -335px;
+
+        font-size: 2em;
       }
     }
     .icon {
@@ -91,12 +94,12 @@
     }
   }
   &__info-description {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     width: 300px;
     padding: 15px 20px;
     text-align: left;
     @media all and (min-width: 768px) {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       width: 400px;
     }
     @media all and (min-width: 1024px) {
@@ -110,7 +113,7 @@
     border-radius: 2px;
     color: $color-quaternary;
     margin-bottom: 4em;
-    font-size: 1.5em;
+    font-size: 1.8em;
     background: $color-tertiary;
     transition: 1s ease-out;
     border-radius: 5px;
