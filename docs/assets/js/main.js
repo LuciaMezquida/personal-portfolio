@@ -1,0 +1,1 @@
+"use strict";const messages=["Soy creativa","Me gusta aprender cosas nuevas","Soy Junior Frontend Developer"];let index=0;const changeHeaderMessage=()=>{const e=document.querySelector(".js-welcome-job");index>=3&&(index=0),e.innerHTML=messages[index],index++};setInterval(changeHeaderMessage,2e3);
