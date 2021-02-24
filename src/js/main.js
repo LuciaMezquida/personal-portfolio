@@ -3,7 +3,7 @@
 const messages = [
   "Soy creativa",
   "Me gusta aprender cosas nuevas",
-  "Soy Junior Frontend Developer",
+  "Soy Frontend Developer",
 ];
 let index = 0;
 const changeHeaderMessage = () => {
