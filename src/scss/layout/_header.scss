@@ -12,7 +12,7 @@
       justify-content: center;
     }
     &--link {
-      padding: 1.2rem;
+      padding: 1rem;
       display: flex;
       font-size: 2em;
       margin-right: 1.8rem;
@@ -29,19 +29,27 @@
   }
   &__welcome {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 6em;
     width: 100vw;
     height: 100vh;
-    background-color: $color-secondary;
     background-image: linear-gradient(190deg, #2bb6b6 0%, #3a5555 100%);
+    &--image {
+      position: absolute;
+      top: 20px;
+      z-index: 0;
+    }
     &--title {
+      position: relative;
       color: $color-font;
       font-size: 6em;
+      z-index: 1;
     }
     &--job {
+      position: relative;
+      z-index: 1;
       color: $color-primary;
       font-size: 2.5em;
       font-style: italic;
