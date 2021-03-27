@@ -1,6 +1,8 @@
 /*Contact section*/
 
 .contact {
+  position: relative;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +11,10 @@
   width: 100vw;
   height: 98vh;
   padding: 0.2em;
-  background: $color-tertiary;
+  background: linear-gradient(rgba(60, 83, 83, 0.5), rgba(60, 83, 83, 0.5)),
+    url(//media3.s-nbcnews.com/j/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg)
+      no-repeat;
+  background-size: cover;
   &__title {
     color: $color-font;
     font-size: 5em;
