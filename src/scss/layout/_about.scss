@@ -7,4 +7,19 @@
     font-size: 5em;
     padding: 1.3em 0;
   }
+  &__container {
+  }
+  &__column1 {
+    &--image {
+      width: 250px;
+      border: 8px solid $color-tertiary;
+    }
+  }
+  &__column2 {
+    &--title {
+      color: $color-font;
+      font-family: $font-title;
+      font-size: 2em;
+    }
+  }
 }

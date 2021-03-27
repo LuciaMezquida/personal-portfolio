@@ -41,6 +41,13 @@
       top: 20px;
       left: 20px;
       z-index: 0;
+      width: 300px;
+      @media all and(min-width:768px) {
+        width: 500px;
+      }
+      @media all and(min-width:1044px) {
+        width: 700px;
+      }
     }
     &--title {
       position: relative;
