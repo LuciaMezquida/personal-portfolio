@@ -6,7 +6,7 @@
     color: $color-font;
     font-family: $font-title;
     font-size: 5em;
-    margin: 1.3em 0;
+    padding: 1.3em 0;
   }
   &__projects {
     display: flex;
@@ -27,7 +27,7 @@
   }
   &__container {
     background: $color-tertiary;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 300px;
     height: 250px;
     @media all and (min-width: 540px) {
@@ -48,7 +48,7 @@
       padding-bottom: 5em;
       position: relative;
       z-index: 1;
-      border-radius: 20px;
+      border-radius: 10px;
       transition: color 0.5s ease-out;
       display: block;
       transition: 1s ease-in-out;
