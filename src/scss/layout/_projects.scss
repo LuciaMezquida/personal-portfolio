@@ -1,13 +1,12 @@
 /*Projects section*/
 .main {
   text-align: center;
-  padding: 10em 0 0 0;
   background: $color-quaternary;
   &__title {
     color: $color-font;
     font-family: $font-title;
     font-size: 5em;
-    margin-bottom: 1.3em;
+    margin: 1.3em 0;
   }
   &__projects {
     display: flex;
