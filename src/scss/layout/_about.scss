@@ -51,7 +51,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    @media all and(min-width: 1024px) {
+    @media all and(min-width: 768px) {
+      flex-wrap: wrap;
       flex-direction: row;
     }
     &--title {
