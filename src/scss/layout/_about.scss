@@ -55,12 +55,13 @@
       flex-direction: row;
     }
     &--title {
+      clear: left;
       color: $color-font;
       font-family: $font-title;
       font-size: 5em;
       padding-top: 28px;
       @media all and(min-width: 768px) {
-        padding: 0.8em;
+        padding: 0.7em;
       }
     }
     &--develop,
