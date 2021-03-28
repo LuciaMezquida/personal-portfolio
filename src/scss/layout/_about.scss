@@ -7,7 +7,7 @@
     font-size: 5em;
     padding: 1.2em 0 0.6em;
     @media all and(min-width: 768px) {
-      padding: 0.8em;
+      padding-bottom: 0.8em;
     }
   }
   &__container {
@@ -39,7 +39,7 @@
     &--description {
       color: $color-font;
       font-size: 1.8rem;
-      padding-bottom: 12px;
+      padding-top: 12px;
       @media all and(min-width: 1024px) {
         font-size: 1.4rem;
       }
