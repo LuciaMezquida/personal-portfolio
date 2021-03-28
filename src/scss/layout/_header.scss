@@ -19,11 +19,12 @@
       text-decoration: none;
       color: $color-font;
       font-weight: bolder;
+      transition: ease 0.3s;
       @media all and (min-width: 1024px) {
         font-size: 1.4em;
       }
       &:hover {
-        text-decoration: underline;
+        color: $color-tertiary;
       }
     }
   }
