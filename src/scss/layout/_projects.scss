@@ -131,17 +131,15 @@
   }
   &__button {
     display: inline-block;
-    padding: 0.5em 2em;
-    border-radius: 2px;
-    color: $color-quaternary;
+    padding: 0.5em 1.8em;
+    color: $color-tertiary;
     margin-bottom: 4em;
     font-size: 1.8em;
-    background: $color-tertiary;
     transition: 1s ease-out;
     border-radius: 5px;
+    font-weight: bolder;
     &:hover {
-      background: $color-primary;
-      font-weight: bolder;
+      text-decoration: underline;
     }
   }
 }
