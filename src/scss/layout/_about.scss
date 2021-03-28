@@ -1,5 +1,5 @@
 .about {
-  height: 100vh;
+  min-height: 100vh;
   background: $color-secondary;
   &__title {
     color: $color-font;
@@ -31,13 +31,44 @@
       @media all and(min-width: 768px) {
         font-size: 2.4rem;
       }
+      @media all and(min-width: 1024px) {
+        font-size: 1.8rem;
+      }
     }
   }
-  // &__column2 {
-  //   &--title {
-  //     color: $color-font;
-  //     font-family: $font-title;
-  //     font-size: 2em;
-  //   }
-  // }
+  &__column2 {
+    padding: 28px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    &--title {
+      color: $color-font;
+      font-family: $font-title;
+      font-size: 3.6em;
+    }
+    &--develop,
+    &--layout,
+    &--organization {
+      width: 250px;
+      height: 250px;
+      padding: 10px;
+      margin-top: 30px;
+      background-image: url(//i.postimg.cc/Fs9xHj2p/bubble.png);
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      .title {
+        color: $color-font;
+        font-family: $font-title;
+        font-size: 2.4em;
+        margin-bottom: 20px;
+      }
+      .image {
+        margin: 5px;
+      }
+    }
+  }
 }
