@@ -7,45 +7,61 @@
     font-size: 5em;
     padding: 1.2em 0 0.6em;
     @media all and(min-width: 768px) {
-      padding: 1.3em 0;
+      padding: 0.8em;
     }
   }
   &__container {
     padding: 0 16px;
+    @media all and(min-width: 768px) {
+      padding: 0 40px;
+    }
+    @media all and(min-width: 1024px) {
+      padding: 0 70px;
+    }
   }
   &__column1 {
     text-align: left;
     &--image {
       width: 50%;
+      max-width: 280px;
       border: 8px solid $color-tertiary;
       border-radius: 5px;
       margin-right: 10px;
       float: left;
       @media all and(min-width: 768px) {
         width: 25%;
+        margin: 0 40px 40px 0;
+      }
+      @media all and(min-width: 1024px) {
+        margin: 0 70px 60px 0;
       }
     }
     &--description {
       color: $color-font;
       font-size: 1.8rem;
-      @media all and(min-width: 768px) {
-        font-size: 2.4rem;
-      }
+      padding-bottom: 12px;
       @media all and(min-width: 1024px) {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
       }
     }
   }
   &__column2 {
-    padding: 28px 0;
+    padding-bottom: 28px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    @media all and(min-width: 1024px) {
+      flex-direction: row;
+    }
     &--title {
       color: $color-font;
       font-family: $font-title;
-      font-size: 3.6em;
+      font-size: 5em;
+      padding-top: 28px;
+      @media all and(min-width: 768px) {
+        padding: 0.8em;
+      }
     }
     &--develop,
     &--layout,
@@ -53,7 +69,7 @@
       width: 250px;
       height: 250px;
       padding: 10px;
-      margin-top: 30px;
+      margin: 30px;
       background-image: url(//i.postimg.cc/Fs9xHj2p/bubble.png);
       background-size: cover;
       display: flex;
@@ -65,6 +81,9 @@
         font-family: $font-title;
         font-size: 2.4em;
         margin-bottom: 20px;
+        @media all and(min-width: 1024px) {
+          font-size: 1.8rem;
+        }
       }
       .image {
         margin: 5px;

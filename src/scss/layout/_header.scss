@@ -28,6 +28,7 @@
     }
   }
   &__welcome {
+    padding: 0 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,26 +41,26 @@
       top: 8%;
       left: 5%;
       z-index: 0;
-      width: 95%;
+      width: 90%;
       @media all and(min-width:768px) {
-        width: 500px;
+        width: 50%;
       }
       @media all and(min-width:1044px) {
-        width: 700px;
+        max-width: 650px;
       }
     }
     &--title {
       position: relative;
       color: $color-font;
       font-family: $font-title;
-      font-size: 6em;
+      font-size: 5.2em;
       z-index: 1;
     }
     &--job {
       position: relative;
       z-index: 1;
       color: $color-primary;
-      font-size: 2.5em;
+      font-size: 2.2em;
       font-weight: bolder;
       text-shadow: 2px 3px 6px black;
     }
