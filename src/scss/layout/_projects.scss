@@ -6,7 +6,7 @@
     color: $color-font;
     font-family: $font-title;
     font-size: 5em;
-    padding: 1.3em 0;
+    padding: 0.8em 0;
   }
   &__projects {
     display: flex;
@@ -14,7 +14,7 @@
     justify-content: space-evenly;
     max-width: 90%;
     margin: auto;
-    margin-bottom: 6em;
+    margin-bottom: 2em;
   }
   &__card {
     margin: 30px;
@@ -124,6 +124,7 @@
       margin-top: -335px;
     }
     .icon-language {
+      width: 30px;
       @media all and (min-width: 1024px) {
         width: 40px;
       }
@@ -133,7 +134,7 @@
     display: inline-block;
     padding: 0.5em 1.8em;
     color: $color-tertiary;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     font-size: 1.8em;
     transition: 1s ease-out;
     border-radius: 5px;

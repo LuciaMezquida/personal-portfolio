@@ -65,10 +65,8 @@
         padding: 0.7em;
       }
     }
-    &--develop,
-    &--layout,
-    &--organization,
-    &--progress {
+    &--bubble {
+      visibility: hidden;
       width: 250px;
       height: 250px;
       padding: 10px;
@@ -92,5 +90,34 @@
         margin: 5px;
       }
     }
+  }
+}
+.bigEntrance {
+  animation-name: bigEntrance;
+  -webkit-animation-name: bigEntrance;
+  animation-duration: 1.2s;
+  -webkit-animation-duration: 1.2s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  visibility: visible !important;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes bigEntrance {
+  0% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(0.3) rotate(0deg);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2) rotate(15deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
   }
 }
