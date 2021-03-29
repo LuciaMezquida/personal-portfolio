@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    background: #384644;
+    background: #3d4844;
     z-index: 10;
     @media all and (max-width: 1024px) {
       justify-content: center;
@@ -32,6 +32,7 @@
     padding: 0 16px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     line-height: 6em;
     width: 100vw;
@@ -56,6 +57,7 @@
       color: $color-font;
       font-family: $font-title;
       font-size: 5.2em;
+      padding-bottom: 16px;
       z-index: 1;
     }
     &--job {
@@ -64,7 +66,47 @@
       color: $color-font;
       font-size: 2.2em;
       font-weight: bolder;
-      // text-shadow: 2px 3px 6px black;
     }
+  }
+}
+.skill-container {
+  overflow: hidden;
+  position: relative;
+  float: right;
+  height: 70px;
+}
+.skill {
+  padding: 0 10px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: block;
+}
+.flip3 {
+  animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+@keyframes flip3 {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
   }
 }
