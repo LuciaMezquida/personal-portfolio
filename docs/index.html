@@ -12,12 +12,17 @@
     <meta property="og:url" content="//luciamezquida.netlify.app/" />
     <meta
       property="og:image"
-      content="https://i.ibb.co/X4v9VG6/Captura-de-pantalla-2021-02-11-a-las-13-42-09.png"
+      content="//i.postimg.cc/pTsXTWMs/portfolio.png"
       alt="Landin del porfolio"
     />
     <title>Lucia Mezquida Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/476ba4bf26.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -29,381 +34,790 @@
   </head>
 
   <body>
-    <div>
-      <header class="header">
-        <nav id="welcome-section">
-          <ul class="header__navbar">
+    <header class="header">
+      <nav>
+        <ul class="header__navbar">
+          <li class="list">
+            <a class="header__navbar--link" href="#about" title="Sobre mí"
+              >Sobre mi</a
+            >
+          </li>
+          <li class="list">
+            <a class="header__navbar--link" href="#projects" title="Mis proyectos"
+              >Proyectos</a
+            >
+          </li>
+          <li class="list">
+            <a class="header__navbar--link" href="#contact" title="Contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section class="header__welcome">
+        <img
+          src="./assets/images/jellyfish_opt.png"
+          alt="jellyfish"
+          class="header__welcome--image"
+        />
+        <h1 class="header__welcome--title">Hola, soy Lucia</h1>
+        <div class="skill-container">
+          <ul class="header__welcome--job flip3">
+            <li class="list skill">Soy Frontend Developer Jr.</li>
+            <li class="list skill">Soy creativa</li>
+            <li class="list skill">Me gusta aprender cosas nuevas</li>
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <main class="main">
+      <section class="about" id="about">
+        <h2 class="about__title">Sobre mi</h2>
+        <div class="about__container">
+          <div class="about__column1">
+            <img
+              src="./assets/images/photo.jpeg"
+              alt=""
+              class="about__column1--image"
+            />
+            <div>
+              <p class="about__column1--description">
+                Mi nombre es Lucía Mezquida y soy Programadora FrontEnd Jr., aunque no
+                siempre ha sido así.
+              </p>
+              <p class="about__column1--description">
+                Comencé mi andadura profesional como farmacéutica, donde aprendí a
+                trabajar en equipo y a saber comunicarme con compañeros y clientes con
+                empatía y paciencia. Pero ha sido en la programación donde por fin he
+                encontrado la sinergia perfecta entre creatividad, resolución de
+                problemas y la mejora continua.
+              </p>
+              <p class="about__column1--description">
+                Después de un periodo de autoformación, pasé las pruebas del bootcamp
+                Adalab Digital, donde fui formada en HTML, CSS, JavaScript y React,
+                así como a trabajar en equipo dentro de la filosofía Agile, con el
+                marco de trabajo Scrum, todo ello en remoto.
+              </p>
+              <p class="about__column1--description">
+                Soy una persona proactiva, empática, asertiva y paciente, a la que no
+                le da miedo enfrentarse a nuevos retos, con mucho entusiasmo y ganas
+                de seguir aprendiendo con pasión y superación.
+              </p>
+            </div>
+          </div>
+          <h3 class="about__column2--title">Habilidades</h3>
+          <div class="about__column2">
+            <article class="about__column2--bubble">
+              <h4 class="title">Desarrollo</h4>
+              <div>
+                <img
+                  src="//img.icons8.com/color/40/000000/javascript.png"
+                  alt="JavaScript"
+                  title="JavaScript"
+                  class="image"
+                />
+                <img
+                  src="//img.icons8.com/color/40/000000/react-native.png"
+                  alt="React"
+                  title="React"
+                  class="image"
+                />
+                <img
+                  src="//raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"
+                  height="38px"
+                  alt="jQuery"
+                  title="jQuery"
+                  class="image"
+                />
+                <img
+                  src="//raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg"
+                  height="40px"
+                  alt="Gulp"
+                  title="Gulp"
+                  class="image"
+                />
+                <img
+                  src="//www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                  height="40px"
+                  alt="Git"
+                  title="Git"
+                  class="image"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"
+                  title="Visual Studio Code"
+                  alt="VS Code"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"
+                  title="Terminal"
+                  alt="terminal"
+                  height="40"
+                  class="image"
+                />
+              </div>
+            </article>
+            <article class="about__column2--bubble">
+              <h4 class="title">Maquetación</h4>
+              <div>
+                <img
+                  src="//raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  title="HTML"
+                  alt="html5"
+                  width="40"
+                  class="image"
+                />
+                <img
+                  src="//raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  title="CSS"
+                  alt="css3"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                  alt="sass"
+                  title="Sass"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                  title="Bootstrap"
+                  alt="bootstrap"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//i.ibb.co/CP4H3cK/bem.png"
+                  title="BEM"
+                  alt="bem"
+                  height="30"
+                  class="image"
+                />
+                <img
+                  src="./assets/images/figma.png"
+                  title="Figma"
+                  alt="Figma"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="./assets/images/zeplin.png"
+                  title="Zeplin"
+                  alt="Zeplin"
+                  height="40"
+                  class="image"
+                />
+              </div>
+            </article>
+            <article class="about__column2--bubble">
+              <h4 class="title">Organización</h4>
+              <div>
+                <img
+                  src="//img.icons8.com/color/40/000000/trello.png"
+                  title="Trello"
+                  alt="Trello"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//img.icons8.com/fluent/40/000000/github.png"
+                  title="Github"
+                  alt="Github"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//img.icons8.com/color/40/000000/slack-new.png"
+                  title="Slack"
+                  alt="Slack"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//img.icons8.com/fluent/40/000000/discord-logo.png"
+                  title="Discord"
+                  alt="Discord"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="./assets/images/scrum.png"
+                  title="Scrum"
+                  alt="Scrum"
+                  height="40"
+                  class="image"
+                />
+              </div>
+            </article>
+            <article class="about__column2--bubble">
+              <h4 class="title">Aprendiendo...</h4>
+              <div>
+                <img
+                  src="./assets/images/node.png"
+                  title="Node"
+                  alt="Node"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="./assets/images/mysql.png"
+                  title="MySQL"
+                  alt="MySQL"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+                  title="Jest"
+                  alt="Jest"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//i.ibb.co/4pgxm15/testing-library.png"
+                  title="Testing Library"
+                  alt="Testing Library"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="//img.icons8.com/color/45/000000/typescript.png"
+                  title="Typescript"
+                  alt="Typescript"
+                  height="40"
+                  class="image"
+                />
+                <img
+                  src="./assets/images/wordpress.png"
+                  title="Wordpress"
+                  alt="Wordpress"
+                  height="40"
+                  class="image"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <h2 id="projects" class="main__title">Mis proyectos</h2>
+      <section class="main__projects">
+        <article class="main__card">
+          <div class="main__container">
+            <img
+              class="main__container--image"
+              src="./assets/images/smiley-calendar.png"
+              alt="Smiley Calendar"
+              title="Smiley Calendar"
+            />
+          </div>
+          <div class="main__info">
+            <div class="main__info-behind">
+              <p class="main__info-description">App web para registrar el estado de ánimo del usuario, pudiendo añadir un comentario del mismo. De este modo, se puede filtrar por días buenos y días malos, e incluso acceder a un día en concreto y leer el comentario.</p>
+              <div class="main__info--icons">
+                <a class="link icon" href="//github.com/LuciaMezquida/smiley-calendar" target="_blank">
+                  <img
+                    src="//img.icons8.com/wired/40/000000/github.png"
+                    class="image"
+                    alt="github link"
+                  />
+                </a>
+                <a class="link icon" href="//smiley-calendar-luciamezquida.netlify.app/#/" target="_blank">
+                  <img
+                    src="//img.icons8.com/dotty/40/000000/laptop.png"
+                    class="image"
+                    alt="web link"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="main__info-name-icon">
+              <p class="main__info--name">Smiley Calendar</p>
+              <div>
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/html-5.png"
+                  alt="HTML"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/sass.png"
+                  alt="Scss"
+                  title="Scss"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/react-native.png"
+                  alt="React"
+                  title="React"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/material-ui.png"
+                  alt="Material-UI"
+                  title="Material-UI"
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="main__card">
+          <div class="main__container">
+            <img
+              class="main__container--image"
+              src="./assets/images/calculator.png"
+              alt="Calculator"
+              title="Calculator"
+            />
+          </div>
+          <div class="main__info">
+            <div class="main__info-behind">
+              <p class="main__info-description">Calculadora creada React y Typescript, con el objetivo de aprender e implementar test unitarios con Jest y Testing Library.</p>
+              <div class="main__info--icons">
+                <a class="link icon" href="//github.com/LuciaMezquida/react-calculator" target="_blank">
+                  <img
+                    src="//img.icons8.com/wired/40/000000/github.png"
+                    class="image"
+                    alt="github link"
+                  />
+                </a>
+                <a class="link icon" href="//luci-calculator.netlify.app/" target="_blank">
+                  <img
+                    src="//img.icons8.com/dotty/40/000000/laptop.png"
+                    class="image"
+                    alt="web link"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="main__info-name-icon">
+              <p class="main__info--name">Calculator</p>
+              <div>
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/html-5.png"
+                  alt="HTML"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/sass.png"
+                  alt="Scss"
+                  title="Scss"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/react-native.png"
+                  alt="React"
+                  title="React"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/typescript.png"
+                  alt="Typescript"
+                  title="Typescript"
+                />
+                <img
+                  class="icon-language"
+                  src="//i.ibb.co/4pgxm15/testing-library.png"
+                  alt="Testing Library"
+                  title="Testing Library"
+                />
+                <img
+                  class="icon-language"
+                  src="//www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+                  alt="Jest"
+                  title="Jest"
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="main__card">
+          <div class="main__container">
+            <img
+              class="main__container--image"
+              src="./assets/images/favourite-videos.png"
+              alt="Favourite Videos App"
+              title="Favourite Videos App"
+            />
+          </div>
+          <div class="main__info">
+            <div class="main__info-behind">
+              <p class="main__info-description">Aplicación para poder guardar videos favoritos. Al hacer click sobre una de las imágenes de los videos accederemos a la reproducción del video y a la descripción.</p>
+              <div class="main__info--icons">
+                <a class="link icon" href="//github.com/LuciaMezquida/video-favourites-app" target="_blank">
+                  <img
+                    src="//img.icons8.com/wired/40/000000/github.png"
+                    class="image"
+                    alt="github link"
+                  />
+                </a>
+                <a class="link icon" href="//react-favourite-videos.netlify.app/" target="_blank">
+                  <img
+                    src="//img.icons8.com/dotty/40/000000/laptop.png"
+                    class="image"
+                    alt="web link"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="main__info-name-icon">
+              <p class="main__info--name">Favourite Videos App</p>
+              <div>
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/html-5.png"
+                  alt="HTML"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/sass.png"
+                  alt="Scss"
+                  title="Scss"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/react-native.png"
+                  alt="React"
+                  title="React"
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="main__card">
+          <div class="main__container">
+            <img
+              class="main__container--image"
+              src="./assets/images/divas-profile-cards.png"
+              alt="Div_as Profile Cards"
+              title="Div_as Profile Cards"
+            />
+          </div>
+          <div class="main__info">
+            <div class="main__info-behind">
+              <p class="main__info-description">Web app realizada en equipo, que genera tarjetas digitales personalizadas. Permite añadir nombre, profesión, foto y datos de contacto. Se genera un link con la tarjeta y se ofrece la posibilidad de compartirla por la cuenta de Twitter.</p>
+              <div class="main__info--icons">
+                <a class="link icon" href="//github.com/LuciaMezquida/project-promo-k-module-2-team-7" target="_blank">
+                  <img
+                    src="//img.icons8.com/wired/40/000000/github.png"
+                    class="image"
+                    alt="github link"
+                  />
+                </a>
+                <a class="link icon" href="//luciamezquida.github.io/project-promo-k-module-2-team-7/" target="_blank">
+                  <img
+                    src="//img.icons8.com/dotty/40/000000/laptop.png"
+                    class="image"
+                    alt="web link"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="main__info-name-icon">
+              <p class="main__info--name">Div_as Profile Cards</p>
+              <div>
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/html-5.png"
+                  alt="HTML"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/sass.png"
+                  alt="Scss"
+                  title="Scss"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/javascript.png"
+                  alt="JavaScript"
+                  title="JavaScript"
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="main__card">
+          <div class="main__container">
+            <img
+              class="main__container--image"
+              src="./assets/images/rick-morty.png"
+              alt="Rick & Morty Finder"
+              title="Rick & Morty Finder"
+            />
+          </div>
+          <div class="main__info">
+            <div class="main__info-behind">
+              <p class="main__info-description">Buscador de personajes de la serie Rick y Morty. Al clicar en cada personaje, aparece una tarjeta con información más detallada del mismo. También es posible ordenar los personajes por orden alfabético.</p>
+              <div class="main__info--icons">
+                <a class="link icon" href="//github.com/LuciaMezquida/rick-and-morty-finder" target="_blank">
+                  <img
+                    src="//img.icons8.com/wired/40/000000/github.png"
+                    class="image"
+                    alt="github link"
+                  />
+                </a>
+                <a class="link icon" href="//luciamezquida.github.io/rick-and-morty-finder/#/" target="_blank">
+                  <img
+                    src="//img.icons8.com/dotty/40/000000/laptop.png"
+                    class="image"
+                    alt="web link"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="main__info-name-icon">
+              <p class="main__info--name">Rick & Morty Finder</p>
+              <div>
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/html-5.png"
+                  alt="HTML"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/sass.png"
+                  alt="Scss"
+                  title="Scss"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/react-native.png"
+                  alt="React"
+                  title="React"
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="main__card">
+          <div class="main__container">
+            <img
+              class="main__container--image"
+              src="./assets/images/breakout.png"
+              alt="Breakout"
+              title="Breakout"
+            />
+          </div>
+          <div class="main__info">
+            <div class="main__info-behind">
+              <p class="main__info-description">El mítico juego arcade 'Breakout' (o Arkanoid) de 'Atari', construido a partir de los tutoriales de juegos retro impartidos por Ania Kubow. No hay que bajar la guardia, pues la velocidad de la bola aumenta conforme lo hace la puntuación.</p>
+              <div class="main__info--icons">
+                <a class="link icon" href="//github.com/LuciaMezquida/breakout-game" target="_blank">
+                  <img
+                    src="//img.icons8.com/wired/40/000000/github.png"
+                    class="image"
+                    alt="github link"
+                  />
+                </a>
+                <a class="link icon" href="//breakout-lucigame.netlify.app/" target="_blank">
+                  <img
+                    src="//img.icons8.com/dotty/40/000000/laptop.png"
+                    class="image"
+                    alt="web link"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="main__info-name-icon">
+              <p class="main__info--name">Breakout</p>
+              <div>
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/html-5.png"
+                  alt="HTML"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/css3.png"
+                  alt="CSS"
+                  title="CSS"
+                />
+                <img
+                  class="icon-language"
+                  src="//img.icons8.com/color/35/000000/javascript.png"
+                  alt="JavaScript"
+                  title="JavaScript"
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+                <img
+                  class="icon-language"
+                  src=""
+                  alt=""
+                  title=""
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </section>
+      <a
+        href="//github.com/LuciaMezquida"
+        class="main__button link"
+        title="Más proyectos"
+        target="_blank"
+        ><i class="fab fa-github"></i> Ver más proyectos
+      </a>
+
+      <section id="contact" class="contact">
+        <h2 class="contact__title">¿Hablamos?</h2>
+        <nav>
+          <ul class="contact__list">
             <li class="list">
-              <a class="header__navbar--link" href="#welcome-section" title="About me"
-                >Sobre mi</a
+              <a
+                target="_blank"
+                title="GitHub"
+                href="//github.com/LuciaMezquida"
+                class="contact__list--links"
+              >
+                <i class="fab-github"></i>
+                <p class="contact__list--links-name">GitHub</p></a
               >
             </li>
             <li class="list">
-              <a class="header__navbar--link" href="#projects" title="My works"
-                >Mis proyectos</a
+              <a
+                target="_blank"
+                title="Twitter"
+                href="//twitter.com/LuciCodes"
+                class="contact__list--links"
+              >
+                <i class="fab-twitter"></i>
+                <p class="contact__list--links-name">Twitter</p></a
               >
             </li>
             <li class="list">
-              <a class="header__navbar--link" href="#contact" title="Contact"
-                >Contacto</a
+              <a
+                target="_blank"
+                title="Linkedin"
+                href="//www.linkedin.com/in/luciamezquidajuan/"
+                class="contact__list--links"
+              >
+                <i class="fab-linkedin"></i>
+                <p class="contact__list--links-name">Linkedin</p></a
+              >
+            </li>
+            <li class="list">
+              <a
+                href="mailto:lucia.mezquida@gmail.com"
+                class="contact__list--links"
+                target="_blank"
+                title="Email"
+              >
+                <i class="fab-email"></i>
+                <p class="contact__list--links-name">Email</p></a
+              >
+            </li>
+            <li class="list">
+              <a
+                href="//drive.google.com/file/d/1SU4i9IdSOrWZWuTQcIuQZAAfLYbV6K6g/view?usp=sharing"
+                class="contact__list--links"
+                target="_blank"
+                title="CV"
+              >
+                <i class="fab-cv"></i>
+                <p class="contact__list--links-name">CV</p></a
               >
             </li>
           </ul>
         </nav>
-        <section class="header__welcome">
-          <h1 class="header__welcome--title">Hola, soy Lucia</h1>
-          <p class="header__welcome--job js-welcome-job">
-            Soy Junior Frontend Developer
-          </p>
-        </section>
-      </header>
 
-      <main id="projects" class="main">
-        <h2 class="main__title">Mis proyectos</h2>
-        <section class="main__projects">
-          <article class="main__card">
-            <div class="main__container">
-              <img
-                class="main__container--image"
-                src="./assets/images/smiley-calendar.png"
-                alt="Smiley Calendar"
-                title="Smiley Calendar"
-              />
-            </div>
-            <div class="main__info">
-              <div class="main__info-behind">
-                <p class="main__info-description">App web para registrar los días en función de si nos ha ido bien 😃 o mal 😟, pudiendo añadir un comentario del porqué. Así, con el tiempo, se puede tener una vista general de cómo nos ha ido el año, pudiendo filtrar por días buenos y días malos, e incluso acceder a un día en concreto para saber porqué fue bien o mal ese día.</p>
-                <div class="main__info--icons">
-                  <a class="link icon" href="//github.com/LuciaMezquida/smiley-calendar" target="_blank">
-                    <img
-                      src="//img.icons8.com/wired/40/000000/github.png"
-                      class="image"
-                      alt="github link"
-                    />
-                  </a>
-                  <a class="link icon" href="//smiley-calendar-luciamezquida.netlify.app/#/" target="_blank">
-                    <img
-                      src="//img.icons8.com/dotty/40/000000/laptop.png"
-                      class="image"
-                      alt="web link"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="main__info-name-icon">
-                <p class="main__info--name">Smiley Calendar</p>
-                <div>
-                  <img
-                    class="icon-language"
-                    src="//img.icons8.com/color/35/000000/html-5.png"
-                    alt="HTML"
-                  />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/sass.png" alt="" />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/react-native.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
+        <footer class="copyright">
+          <small> Made with <i class="fas fa-cat"></i> by Lucia Mezquida</small>
+        </footer>
 
-          <article class="main__card">
-            <div class="main__container">
-              <img
-                class="main__container--image"
-                src="./assets/images/series-finder.png"
-                alt="Series finder"
-                title="Series finder"
-              />
-            </div>
-            <div class="main__info">
-              <div class="main__info-behind">
-                <p class="main__info-description">Luziflix es una aplicación de búsqueda de series que, a través de la API de TV Maze, permite buscar series por su título, marcarlos como favoritos y añadirlos a una lista de favoritos, que queda guardada después de hacer nuevas búsquedas.</p>
-                <div class="main__info--icons">
-                  <a class="link icon" href="//github.com/LuciaMezquida/series-finder" target="_blank">
-                    <img
-                      src="//img.icons8.com/wired/40/000000/github.png"
-                      class="image"
-                      alt="github link"
-                    />
-                  </a>
-                  <a class="link icon" href="//luciamezquida.github.io/series-finder/" target="_blank">
-                    <img
-                      src="//img.icons8.com/dotty/40/000000/laptop.png"
-                      class="image"
-                      alt="web link"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="main__info-name-icon">
-                <p class="main__info--name">Series finder</p>
-                <div>
-                  <img
-                    class="icon-language"
-                    src="//img.icons8.com/color/35/000000/html-5.png"
-                    alt="HTML"
-                  />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/sass.png" alt="" />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/javascript.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
+      </section>
 
-          <article class="main__card">
-            <div class="main__container">
-              <img
-                class="main__container--image"
-                src="./assets/images/favourite-videos.png"
-                alt="Favourite Videos App"
-                title="Favourite Videos App"
-              />
-            </div>
-            <div class="main__info">
-              <div class="main__info-behind">
-                <p class="main__info-description">Aplicación para poder guardar videos favoritos. Al hacer click sobre una de las imágenes de los videos accederemos a la reproducción del video y a la descripción.</p>
-                <div class="main__info--icons">
-                  <a class="link icon" href="//github.com/LuciaMezquida/video-favourites-app" target="_blank">
-                    <img
-                      src="//img.icons8.com/wired/40/000000/github.png"
-                      class="image"
-                      alt="github link"
-                    />
-                  </a>
-                  <a class="link icon" href="//react-favourite-videos.netlify.app/" target="_blank">
-                    <img
-                      src="//img.icons8.com/dotty/40/000000/laptop.png"
-                      class="image"
-                      alt="web link"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="main__info-name-icon">
-                <p class="main__info--name">Favourite Videos App</p>
-                <div>
-                  <img
-                    class="icon-language"
-                    src="//img.icons8.com/color/35/000000/html-5.png"
-                    alt="HTML"
-                  />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/sass.png" alt="" />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/react-native.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
+    </main>
 
-          <article class="main__card">
-            <div class="main__container">
-              <img
-                class="main__container--image"
-                src="./assets/images/divas-profile-cards.png"
-                alt="Div_as Profile Cards"
-                title="Div_as Profile Cards"
-              />
-            </div>
-            <div class="main__info">
-              <div class="main__info-behind">
-                <p class="main__info-description">Generador de tarjetas digitales personalizadas. Permite añadir nombre, profesión, foto y datos de contacto. Se genera un link con la tarjeta y se ofrece la posibilidad de compartirla por la cuenta de Twitter.</p>
-                <div class="main__info--icons">
-                  <a class="link icon" href="//github.com/LuciaMezquida/project-promo-k-module-2-team-7" target="_blank">
-                    <img
-                      src="//img.icons8.com/wired/40/000000/github.png"
-                      class="image"
-                      alt="github link"
-                    />
-                  </a>
-                  <a class="link icon" href="//luciamezquida.github.io/project-promo-k-module-2-team-7/" target="_blank">
-                    <img
-                      src="//img.icons8.com/dotty/40/000000/laptop.png"
-                      class="image"
-                      alt="web link"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="main__info-name-icon">
-                <p class="main__info--name">Div_as Profile Cards</p>
-                <div>
-                  <img
-                    class="icon-language"
-                    src="//img.icons8.com/color/35/000000/html-5.png"
-                    alt="HTML"
-                  />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/sass.png" alt="" />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/javascript.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="main__card">
-            <div class="main__container">
-              <img
-                class="main__container--image"
-                src="./assets/images/rick-morty.png"
-                alt="Rick & Morty Finder"
-                title="Rick & Morty Finder"
-              />
-            </div>
-            <div class="main__info">
-              <div class="main__info-behind">
-                <p class="main__info-description">Buscador de personajes de la serie Rick y Morty por nombre. Al clicar en cada personaje, aparece una tarjeta con información más detallada del mismo, como si está vivo o muerto o en cuántos episodios aparece. También es posible ordenar los personajes por orden alfabético.</p>
-                <div class="main__info--icons">
-                  <a class="link icon" href="//github.com/LuciaMezquida/rick-and-morty-finder" target="_blank">
-                    <img
-                      src="//img.icons8.com/wired/40/000000/github.png"
-                      class="image"
-                      alt="github link"
-                    />
-                  </a>
-                  <a class="link icon" href="//luciamezquida.github.io/rick-and-morty-finder/#/" target="_blank">
-                    <img
-                      src="//img.icons8.com/dotty/40/000000/laptop.png"
-                      class="image"
-                      alt="web link"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="main__info-name-icon">
-                <p class="main__info--name">Rick & Morty Finder</p>
-                <div>
-                  <img
-                    class="icon-language"
-                    src="//img.icons8.com/color/35/000000/html-5.png"
-                    alt="HTML"
-                  />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/sass.png" alt="" />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/react-native.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="main__card">
-            <div class="main__container">
-              <img
-                class="main__container--image"
-                src="./assets/images/breakout.png"
-                alt="Breakout"
-                title="Breakout"
-              />
-            </div>
-            <div class="main__info">
-              <div class="main__info-behind">
-                <p class="main__info-description">El mítico juego arcade 'Breakout' (o Arkanoid) de 'Atari', construido a partir de los tutoriales de juegos retro impartidos por Ania Kubow. No hay que bajar la guardia, pues la velocidad de la bola aumenta conforme lo hace la puntuación.</p>
-                <div class="main__info--icons">
-                  <a class="link icon" href="//github.com/LuciaMezquida/breakout-game" target="_blank">
-                    <img
-                      src="//img.icons8.com/wired/40/000000/github.png"
-                      class="image"
-                      alt="github link"
-                    />
-                  </a>
-                  <a class="link icon" href="//breakout-lucigame.netlify.app/" target="_blank">
-                    <img
-                      src="//img.icons8.com/dotty/40/000000/laptop.png"
-                      class="image"
-                      alt="web link"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="main__info-name-icon">
-                <p class="main__info--name">Breakout</p>
-                <div>
-                  <img
-                    class="icon-language"
-                    src="//img.icons8.com/color/35/000000/html-5.png"
-                    alt="HTML"
-                  />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/css3.png" alt="" />
-                  <img class="icon-language" src="//img.icons8.com/color/35/000000/javascript.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
-
-        </section>
-        <a
-          href="//github.com/LuciaMezquida"
-          class="main__button link"
-          title="Más proyectos"
-          target="_blank"
-          >Más ></a
-        >
-
-        <section id="contact" class="contact">
-          <h2 class="contact__title">¿Hablamos?</h2>
-          <nav>
-            <ul class="contact__list">
-              <li class="list">
-                <a
-                  target="_blank"
-                  title="GitHub"
-                  href="//github.com/LuciaMezquida"
-                  class="contact__list--links"
-                >
-                  <i class="fab-github"></i>
-                  <p class="contact__list--links-name">GitHub</p></a
-                >
-              </li>
-              <li class="list">
-                <a
-                  target="_blank"
-                  title="Twitter"
-                  href="//twitter.com/LuciCodes"
-                  class="contact__list--links"
-                >
-                  <i class="fab-twitter"></i>
-                  <p class="contact__list--links-name">Twitter</p></a
-                >
-              </li>
-              <li class="list">
-                <a
-                  target="_blank"
-                  title="Linkedin"
-                  href="//www.linkedin.com/in/luciamezquidajuan/"
-                  class="contact__list--links"
-                >
-                  <i class="fab-linkedin"></i>
-                  <p class="contact__list--links-name">Linkedin</p></a
-                >
-              </li>
-              <li class="list">
-                <a
-                  href="mailto:lucia.mezquida@gmail.com"
-                  class="contact__list--links"
-                  target="_blank"
-                  title="Email"
-                >
-                  <i class="fab-email"></i>
-                  <p class="contact__list--links-name">Email</p></a
-                >
-              </li>
-              <li class="list">
-                <a
-                  href="//drive.google.com/file/d/1SU4i9IdSOrWZWuTQcIuQZAAfLYbV6K6g/view?usp=sharing"
-                  class="contact__list--links"
-                  target="_blank"
-                  title="CV"
-                >
-                  <i class="fab-cv"></i>
-                  <p class="contact__list--links-name">CV</p></a
-                >
-              </li>
-            </ul>
-          </nav>
-        </section>
-
-      </main>
-
-      <footer class="copyright">
-        <small> &copy; Made with 🖤 by Lucia Mezquida</small>
-      </footer>
-
-    </div>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
