@@ -115,7 +115,8 @@
   }
   &__info-name-icon {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 8px;
     margin-top: -240px;
     @media all and (min-width: 768px) {
       margin-top: -281px;
