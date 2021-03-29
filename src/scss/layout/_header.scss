@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    background: $color-primary;
+    background: #384644;
     z-index: 10;
     @media all and (max-width: 1024px) {
       justify-content: center;
@@ -24,7 +24,7 @@
         font-size: 1.4em;
       }
       &:hover {
-        color: $color-tertiary;
+        color: $color-quaternary;
       }
     }
   }
@@ -39,6 +39,7 @@
     background-image: linear-gradient(190deg, #2bb6b6 0%, #3a5555 100%);
     &--image {
       position: absolute;
+      opacity: 0.8;
       top: 8%;
       left: 5%;
       z-index: 0;
@@ -60,10 +61,10 @@
     &--job {
       position: relative;
       z-index: 1;
-      color: $color-primary;
+      color: $color-font;
       font-size: 2.2em;
       font-weight: bolder;
-      text-shadow: 2px 3px 6px black;
+      // text-shadow: 2px 3px 6px black;
     }
   }
 }
