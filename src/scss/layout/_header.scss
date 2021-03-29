@@ -52,6 +52,32 @@
         max-width: 650px;
       }
     }
+    &--image1 {
+      width: 100px;
+      position: absolute;
+      opacity: 0.8;
+      top: 18%;
+      left: 75%;
+      z-index: 0;
+      visibility: hidden;
+      @media all and(min-width:1044px) {
+        max-width: 650px;
+        visibility: visible;
+      }
+    }
+    &--image2 {
+      width: 80px;
+      position: absolute;
+      opacity: 0.8;
+      top: 77%;
+      left: 60%;
+      z-index: 0;
+      visibility: hidden;
+      @media all and(min-width:1044px) {
+        max-width: 650px;
+        visibility: visible;
+      }
+    }
     &--title {
       position: relative;
       color: $color-font;
