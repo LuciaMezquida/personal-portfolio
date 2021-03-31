@@ -11,7 +11,7 @@
   height: 98vh;
   padding: 0.2em;
   background: linear-gradient(rgba(60, 83, 83, 0.8), rgba(60, 83, 83, 0.8)),
-    url(//media3.s-nbcnews.com/j/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg)
+    url(https://c.stocksy.com/a/7cF500/z9/1251663.jpg)
       no-repeat fixed;
   background-size: cover;
   &__title {
@@ -53,16 +53,6 @@
   }
 }
 
-.fab-twitter::before {
-  content: url(//img.icons8.com/wired/45/000000/twitter.png);
-  @media all and(min-width: 768px) {
-    content: url(//img.icons8.com/wired/50/000000/twitter.png);
-  }
-  @media all and(min-width: 1024px) {
-    content: url(//img.icons8.com/wired/64/000000/twitter.png);
-  }
-}
-
 .fab-linkedin::before {
   content: url(//img.icons8.com/wired/45/000000/linkedin.png);
   @media all and(min-width: 768px) {
@@ -70,6 +60,16 @@
   }
   @media all and(min-width: 1024px) {
     content: url(//img.icons8.com/wired/64/000000/linkedin.png);
+  }
+}
+
+.fab-twitter::before {
+  content: url(//img.icons8.com/wired/45/000000/twitter.png);
+  @media all and(min-width: 768px) {
+    content: url(//img.icons8.com/wired/50/000000/twitter.png);
+  }
+  @media all and(min-width: 1024px) {
+    content: url(//img.icons8.com/wired/64/000000/twitter.png);
   }
 }
 
@@ -82,12 +82,12 @@
     content: url(//img.icons8.com/wired/64/000000/gmail.png);
   }
 }
-.fab-cv::before {
-  content: url(//img.icons8.com/dotty/45/000000/parse-from-clipboard.png);
+.fab-medium::before {
+  content: url(//img.icons8.com/wired/64/000000/medium-new.png);
   @media all and(min-width: 768px) {
-    content: url(//img.icons8.com/dotty/50/000000/parse-from-clipboard.png);
+    content: url(//img.icons8.com/wired/50/000000/medium-new.png);
   }
   @media all and(min-width: 1024px) {
-    content: url(//img.icons8.com/dotty/64/000000/parse-from-clipboard.png);
+    content: url(//img.icons8.com/wired/64/000000/medium-new.png);
   }
 }
