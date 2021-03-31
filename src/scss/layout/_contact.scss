@@ -18,7 +18,7 @@
     color: $color-font;
     font-size: 5em;
     font-family: $font-title;
-    margin-bottom: 1.7em;
+    margin-bottom: 1em;
   }
   &__list {
     display: flex;
@@ -83,7 +83,7 @@
   }
 }
 .fab-medium::before {
-  content: url(//img.icons8.com/wired/64/000000/medium-new.png);
+  content: url(//img.icons8.com/wired/45/000000/medium-new.png);
   @media all and(min-width: 768px) {
     content: url(//img.icons8.com/wired/50/000000/medium-new.png);
   }
