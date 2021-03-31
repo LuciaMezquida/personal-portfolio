@@ -2,6 +2,8 @@
   min-height: 100vh;
   background: $color-secondary;
   &__title {
+    position: relative;
+    z-index: 1;
     color: $color-font;
     font-family: $font-title;
     font-size: 5em;
@@ -11,17 +13,13 @@
     }
   }
   &__container {
-    padding: 0 16px;
-    @media all and(min-width: 768px) {
-      padding: 0 40px;
-    }
-    @media all and(min-width: 1024px) {
-      padding: 0 70px;
-    }
+    padding: 0 6%;
   }
   &__column1 {
     text-align: left;
     &--image {
+      position: relative;
+      z-index: 1;
       width: 50%;
       max-width: 280px;
       border: 8px solid $color-tertiary;
@@ -37,6 +35,8 @@
       }
     }
     &--description {
+      position: relative;
+      z-index: 1;
       color: $color-font;
       font-size: 1.8rem;
       padding-top: 12px;
@@ -62,7 +62,7 @@
       font-size: 5em;
       padding-top: 28px;
       @media all and(min-width: 768px) {
-        padding: 0.7em;
+        padding: 5%;
       }
     }
     &--bubble {

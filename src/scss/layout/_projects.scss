@@ -107,10 +107,12 @@
     @media all and (min-width: 768px) {
       font-size: 1.8rem;
       width: 400px;
+      padding: 0 25px 15px;
     }
     @media all and (min-width: 1024px) {
       font-size: 1.2rem;
       width: 500px;
+      padding: 0 35px 25px;
     }
   }
   &__info-name-icon {
@@ -120,9 +122,11 @@
     margin-top: -240px;
     @media all and (min-width: 768px) {
       margin-top: -281px;
+      padding: 0 25px;
     }
     @media all and (min-width: 1024px) {
-      margin-top: -330px;
+      margin-top: -318px;
+      padding: 0 35px;
     }
     .icon-language {
       width: 30px;
