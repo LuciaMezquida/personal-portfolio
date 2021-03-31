@@ -44,11 +44,8 @@
       left: 5%;
       z-index: 0;
       width: 90%;
-      @media all and(min-width:768px) {
-        width: 60%;
-      }
       @media all and(min-width:1044px) {
-        max-width: 1100px;
+        max-width: 800px;
       }
     }
     &--image1 {
@@ -58,12 +55,11 @@
       top: 6%;
       left: 75%;
       z-index: 0;
-      visibility: hidden;
-      animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
-      
+      display: none;
       @media all and(min-width:1044px) {
+        animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
         max-width: 650px;
-        visibility: visible;
+        display: inline-block;
       }
     }
     &--image2 {
@@ -73,11 +69,11 @@
       top: 6%;
       left: 60%;
       z-index: 0;
-      visibility: hidden;
-      animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+      display: none;
       @media all and(min-width:1044px) {
+        animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
         max-width: 650px;
-        visibility: visible;
+        display: inline-block;
       }
     }
     &--title {
