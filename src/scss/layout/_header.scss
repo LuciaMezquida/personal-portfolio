@@ -59,6 +59,8 @@
       left: 75%;
       z-index: 0;
       visibility: hidden;
+      animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      
       @media all and(min-width:1044px) {
         max-width: 650px;
         visibility: visible;
@@ -72,6 +74,7 @@
       left: 60%;
       z-index: 0;
       visibility: hidden;
+      animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
       @media all and(min-width:1044px) {
         max-width: 650px;
         visibility: visible;
@@ -109,6 +112,8 @@
 .flip3 {
   animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
+
+//skills animation
 @keyframes flip3 {
   0% {
     margin-top: -270px;
@@ -133,5 +138,23 @@
   }
   100% {
     margin-top: -270px;
+  }
+}
+
+//Bubble animation
+@keyframes animateBubble {
+  0% {
+      margin-top: 1000px;
+  }
+  100% {
+      margin-top: -100%;
+  }
+} 
+@keyframes sideWays { 
+  0% { 
+      margin-left:0px;
+  }
+  100% { 
+      margin-left:50px;
   }
 }
