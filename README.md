@@ -1,6 +1,7 @@
-![Lucia](https://i.ibb.co/BgXwFPC/luci-laptop.jpg)
 
-# Portafolio de Lucía Mezquida
+<p align='center'><img src="https://i.ibb.co/BgXwFPC/luci-laptop.jpg" alt="Lucia in a lapto" border="0" width='250px'></p>
+
+# Portfolio de Lucía Mezquida
 
 Hay 3 tipos de ficheros y carpetas:
 
@@ -94,6 +95,7 @@ src
  |  |  ├─_reset.scss
  |  |  └─_variables.scss
  |  ├─ layout
+ |  |  ├─_about.scss
  |  |  ├─_contact.scss
  |  |  ├─_footer.scss
  |  |  ├─_header.scss
@@ -103,6 +105,7 @@ src
  |  └─ main.scss
  └─ html
     └─ partials
+    |  ├─ about.html
     |  ├─ article.html
     |  ├─ contact.html
     |  ├─ footer.html
