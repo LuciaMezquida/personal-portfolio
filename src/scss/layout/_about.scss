@@ -56,9 +56,9 @@
       color: $color-font;
       font-family: $font-title;
       font-size: 4.2em;
-      padding-top: 28px;
-      @media all and(min-width: 768px) {
-        padding: 3%;
+      padding-top: 10%;
+      @media all and(min-width: 1224px) {
+        padding-top: 0;
       }
     }
     &--bubble {
