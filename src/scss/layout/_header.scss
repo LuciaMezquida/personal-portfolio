@@ -1,5 +1,5 @@
 .header {
-  &__top{
+  &__top {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -10,7 +10,7 @@
     left: 0;
     width: 100vw;
   }
-  &__name{
+  &__name {
     display: none;
     @media all and (min-width: 1024px) {
       display: flex;
@@ -77,7 +77,8 @@
       z-index: 0;
       display: none;
       @media all and(min-width:1044px) {
-        animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: animateBubble 20s linear infinite,
+          sideWays 4s ease-in-out infinite alternate;
         max-width: 650px;
         display: inline-block;
       }
@@ -91,7 +92,8 @@
       z-index: 0;
       display: none;
       @media all and(min-width:1044px) {
-        animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        animation: animateBubble 22s linear infinite,
+          sideWays 3s ease-in-out infinite alternate;
         max-width: 650px;
         display: inline-block;
       }
@@ -110,6 +112,7 @@
       color: $color-font;
       font-size: 2.2em;
       font-weight: bolder;
+      text-align: center;
     }
   }
 }
@@ -126,7 +129,7 @@
   display: block;
 }
 .flip3 {
-  animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+  animation: flip3 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
 //skills animation
@@ -160,27 +163,27 @@
 //Bubble animation
 @keyframes animateBubble {
   0% {
-      margin-top: 1000px;
+    margin-top: 1000px;
   }
   100% {
-      margin-top: -100%;
+    margin-top: -100%;
   }
-} 
+}
 
-@keyframes sideWays { 
-  0% { 
-      margin-left:0px;
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
   }
-  100% { 
-      margin-left:50px;
+  100% {
+    margin-left: 50px;
   }
 }
 
 @keyframes animateJellyfish {
   0% {
-      margin-top: 90%;
+    margin-top: 90%;
   }
   100% {
-      margin-top: 0;
+    margin-top: 0;
   }
 }
