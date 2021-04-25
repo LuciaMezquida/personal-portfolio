@@ -60,7 +60,7 @@
       font-size: 2em;
       color: $color-quaternary;
       font-weight: bolder;
-      position: relative;
+      // position: relative;
       z-index: 3;
       margin-top: 5px;
       @media all and (min-width: 768px) {
@@ -68,7 +68,7 @@
       }
       @media all and (min-width: 1025px) {
         margin-top: 0px;
-        font-size: 1.4em;
+        font-size: 1.3em;
       }
     }
     .icon {
@@ -105,7 +105,7 @@
       padding: 0 25px 15px;
     }
     @media all and (min-width: 1024px) {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       width: 500px;
       padding: 0 35px 25px;
     }
