@@ -1,6 +1,5 @@
 .header {
   &__top {
-    display: flex;
     justify-content: space-between;
     position: fixed;
     background: #3d4844;
@@ -9,6 +8,9 @@
     top: 0;
     left: 0;
     width: 100vw;
+    @media all and (min-width: 1024px) {
+      display: flex;
+    }
   }
   &__name {
     display: none;

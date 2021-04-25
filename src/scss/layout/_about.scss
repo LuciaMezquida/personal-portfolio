@@ -52,6 +52,8 @@
       flex-direction: row;
     }
     &--title {
+      position: relative;
+      z-index: 1;
       clear: left;
       color: $color-font;
       font-family: $font-title;
